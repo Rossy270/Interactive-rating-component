@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="rating-card">
+          <div class="rating-card-title">
+            <div class="rating-card-img"></div>
+            <h1>How did we do?</h1>
+          </div>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <ul class="rating">
+            <li class="unselect">1</li>
+            <li class="unselect">2</li>
+            <li class="unselect">3</li>
+            <li class="unselect">4</li>
+            <li class="unselect">5</li>
+          </ul>
+          <a href="#" class="btn">Submit</a>
+        </div>
+        <div class="thaks-card hider">
+          <img src="images/illustration-thank-you.svg" alt="" />
+          <div class="rating-select">You selected out of 5</div>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
